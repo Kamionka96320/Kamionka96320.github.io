@@ -741,9 +741,6 @@ a {
 .cid-t65Lkyy2x5 img,
 .cid-t65Lkyy2x5 .item-img {
   width: 100%;
-  height: 100%;
-  height: 500px;
-  object-fit: cover;
 }
 .cid-t65Lkyy2x5 .item:focus,
 .cid-t65Lkyy2x5 span:focus {
@@ -1109,9 +1106,6 @@ a {
 .cid-t65OhGzE6t img,
 .cid-t65OhGzE6t .item-img {
   width: 100%;
-  height: 100%;
-  height: 500px;
-  object-fit: cover;
 }
 .cid-t65OhGzE6t .item:focus,
 .cid-t65OhGzE6t span:focus {
