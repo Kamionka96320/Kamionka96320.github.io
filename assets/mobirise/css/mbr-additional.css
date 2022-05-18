@@ -1388,6 +1388,24 @@ a {
 .cid-t1XjPIdNI5 .link {
   color: #6592e6;
 }
+.cid-t6aYpmoqOT {
+  background-color: #353535;
+}
+@media (max-width: 991px) {
+  .cid-t6aYpmoqOT .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-t6aYpmoqOT .row {
+  flex-direction: row-reverse;
+}
+.cid-t6aYpmoqOT img {
+  width: 100%;
+}
+.cid-t6aYpmoqOT .mbr-text {
+  text-align: right;
+  color: #bbbbbb;
+}
 .cid-t1XjTNrHdx .navbar-dropdown {
   position: relative !important;
 }
