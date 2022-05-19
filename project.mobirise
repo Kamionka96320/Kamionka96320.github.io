@@ -42,7 +42,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 30,
+    "uniqCompNum": 31,
     "versionPublish": "5.5.8",
     "favicon": "@PROJECT_PATH@/assets/images/img-9135.jpg",
     "mbrsiteDomain": "pokl5yg3vd",
@@ -289,7 +289,8 @@
               "color": "#bbbbbb"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#bbbbbb"
+              "color": "#bbbbbb",
+              "text-align": "right"
             }
           },
           "_name": "gallery1",
@@ -1250,7 +1251,8 @@
               "color": "#bbbbbb"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#bbbbbb"
+              "color": "#bbbbbb",
+              "text-align": "right"
             }
           },
           "_name": "gallery1",
@@ -1407,6 +1409,31 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#bbbbbb",
+              "text-align": "right"
+            },
+            ".mbr-text": {
+              "color": "#bbbbbb",
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#353535\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">Działka</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">\n                    Działka na której mieszczą się budynki jest od wielu lat nieczynna kopalnią piasku. Teren jest niesamowicie zróżnicowany poziomami. Na środku działki jest ogromny lej po dawnym wyrobisku który teraz służy jako kino letnie.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t6h8xtktlK",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-u"
         },
         {
           "alias": false,

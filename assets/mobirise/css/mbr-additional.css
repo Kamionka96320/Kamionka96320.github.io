@@ -794,6 +794,7 @@ a {
 .cid-t65Lkyy2x5 .mbr-text,
 .cid-t65Lkyy2x5 .mbr-section-btn {
   color: #bbbbbb;
+  text-align: right;
 }
 .cid-t5yNzZlKvk {
   padding-top: 1rem;
@@ -1247,6 +1248,7 @@ a {
 .cid-t61BrJL1S6 .mbr-text,
 .cid-t61BrJL1S6 .mbr-section-btn {
   color: #bbbbbb;
+  text-align: right;
 }
 .cid-t5yToNiLOf {
   padding-top: 1rem;
@@ -1339,6 +1341,19 @@ a {
 }
 .cid-t1XjPIdNI5 .link {
   color: #6592e6;
+}
+.cid-t6h8xtktlK {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #353535;
+}
+.cid-t6h8xtktlK .mbr-section-subtitle {
+  color: #bbbbbb;
+  text-align: right;
+}
+.cid-t6h8xtktlK .mbr-text {
+  color: #bbbbbb;
+  text-align: right;
 }
 .cid-t6h1XyJueG {
   padding-top: 2rem;
